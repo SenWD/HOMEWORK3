@@ -71,14 +71,23 @@
 
 .hero-image {
     
-    
+   width: 1440px;
+   height: 600px;
+ 
+  
+   display:flex;
+   flex-direction:column; 
+
     background-color:#2e2f42;
     text-align: center;   
 }
 
 .hero-title {
+    width: 496px;
+    height: 120px;
+    margin-top:260px;
+    margin-left:472px;
 
-   
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -89,9 +98,11 @@
 }
 
 .hero-button  {
-
+    width:169px;
+    height:56px;
     
     font-weight:500;
+
     font-size:16px;
     line-height:1.5;
     letter-spacing : 0.04em;
@@ -102,8 +113,6 @@
     text-align:center;
 }
 
-
-      
      
 .hero-button:hover,
 .hero-button:focus {
@@ -111,8 +120,20 @@
 }
 
 
+
+
+
+
 .advantages-list {
-   
+    width: 1128px;
+    height: 104px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    display:flex;
+    
+    flex-direction: row;
+  box-sizing:border-box;
     
     background-color:#ffffff;
    
@@ -124,6 +145,7 @@
     line-height:1.2;
     letter-spacing : 0.02em;
     color:#2e2f42; 
+   
   
 }
 
@@ -133,15 +155,40 @@
     line-height:1.5;
     letter-spacing : 0.02em;
     color:#434455; 
+   
 
 }
 
 .our-tema {
-    
-    
-    background-color:#f4f4fd;
+   
+    width: 1440px;
+    height: 732px;
+    margin-top: 120px;
+    margin-bottom: 120px; 
+    margin-top: 1248px;
+    background: #F4F4FD;
+    display:flex;
+    flex-direction: column;
+    box-sizing:border-box;
+
 }
 
+.our-tema-persons{
+
+    width: 264px;
+height: 380px;
+
+
+margin-left: 156x;
+        
+display:flex;
+        flex-direction:row;
+margin-top: 120px;
+align-items: center;
+box-sizing:border-box;
+         
+
+}
 .our-tema-title {
 
 font-size:36px;
@@ -150,15 +197,13 @@ text-align:center;
 letter-spacing : 0.02em;
 text-transform:capitalize;
 color:#2e2f42;
+margin-right: 4px;
+
+
 }
 
 
 
-
-.developer-list  {
-
-    background-color:#FFFFFF;
-}  
 
 .ide-name { 
 
@@ -180,7 +225,12 @@ text-align:left;
 }
 
 .our-portfolio  {
+    width: 1128px;
+    height: 1000px;
+    top: 1868px;
+    left: 156px;
     
+     
     background-color:#FFFFFF;
 } 
 
@@ -222,7 +272,12 @@ text-align:left;
 
 
 .foot-section {
-    
+    width: 1440px;
+height: 312px;
+top: 2988px;
+gap: 0px;
+opacity: 0px;
+
     background-color:#2e2f42;
    
 }
